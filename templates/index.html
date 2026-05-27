@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Izekiel Jade Macario | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container fade-in">
+
+            <img src="{{ url_for('static', filename='kiel.jpg') }}"
+                 alt="Profile Picture"
+                 class="profile-pic">
+
+            <h1>Izekiel Jade Macario</h1>
+
+            <p class="subtitle">
+                Aspiring Software Developer | Python | AI | IoT | Automation
+            </p>
+
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="container fade-in">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate and motivated fresh graduate interested in software development,
+            artificial intelligence, IoT systems, automation, and database management.
+            I enjoy building real-world systems using Python, Flask, Arduino, MySQL,
+            Power Apps, and Power Automate.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="container fade-in">
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+            <span class="skill-card">Python</span>
+            <span class="skill-card">Flask</span>
+            <span class="skill-card">HTML</span>
+            <span class="skill-card">CSS</span>
+            <span class="skill-card">JavaScript</span>
+            <span class="skill-card">MySQL</span>
+            <span class="skill-card">Arduino</span>
+            <span class="skill-card">IoT Systems</span>
+            <span class="skill-card">Power Apps</span>
+            <span class="skill-card">Power Automate</span>
+            <span class="skill-card">GitHub</span>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="container fade-in">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Mango Ripeness Detection System</h3>
+            <p>AI-powered Flask app using Roboflow for fruit classification.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Potato Disease Detection System</h3>
+            <p>YOLOv8-based plant disease detection web system.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Banana Ripeness Detection</h3>
+            <p>Deep learning classification system for banana stages.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>IoT Gas Leakage Detection System</h3>
+            <p>Arduino + LoRa system for gas leak monitoring and alerts.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Power Apps & Automation Projects</h3>
+            <p>Workflow automation systems using Microsoft Power Platform.</p>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="container fade-in">
+        <h2>Education</h2>
+
+        <div class="education-card">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p>Fresh Graduate</p>
+        </div>
+    </section>
+
+    <!-- INTERNSHIP -->
+    <section class="container fade-in">
+        <h2>Internship Experience</h2>
+
+        <div class="education-card">
+            <h3>IT Support & System Maintenance Intern</h3>
+            <p>
+                Assisted in physical and remote IT support, troubleshooting hardware
+                and software issues, maintaining computer systems, and providing
+                technical assistance to users.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="container fade-in">
+        <h2>Contact</h2>
+
+        <div class="contact-card">
+            <p><strong>Email:</strong> izekielmacario@gmail.com</p>
+            <p><strong>Phone:</strong> 09910550781</p>
+            <p><strong>GitHub:</strong> github.com/hypnotizerr</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Izekiel Jade Macario | Portfolio Website</p>
+    </footer>
+
+</body>
+</html>
